@@ -1,9 +1,11 @@
+import vanImage from '/nanobanana-output/precision_pro_painter_in_san_die.png';
+
 export default function Gallery() {
   const projects = [
     {
-      image: 'https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/69182c5b5d55fc416c469dd1.png',
-      title: 'La Jolla Exterior',
-      description: 'Complete repaint'
+      image: vanImage,
+      title: 'Precision Pro Painter in San Diego',
+      description: 'Our company van, ready to serve you.'
     },
     {
       image: 'https://storage.googleapis.com/msgsndr/BK5WOlszHMZB0udM7qC1/media/69182c5b61d44d2bfe9f8f94.png',
