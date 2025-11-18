@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.font-black, .font-bold {
+  font-family: 'Geist', sans-serif;
+  letter-spacing: -0.02em;
+  font-weight: 900 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  letter-spacing: -0.03em;
+  font-weight: 900 !important;
+}
+
+h2 {
+  letter-spacing: -0.025em;
+  font-weight: 900 !important;
+}
+
+h3 {
+  font-weight: 900 !important;
+}
+
+:root {
+  --brand-color: #2563eb;
+  --brand-dark: #1d4ed8;
+  --brand-light: #93c5fd;
+}
+
+.text-brand {
+  color: var(--brand-color);
+}
+
+.bg-brand {
+  background-color: var(--brand-color);
+}
+
+.bg-brand-dark {
+  background-color: var(--brand-dark);
+}
+
+.border-brand {
+  border-color: var(--brand-color);
+}
+
+.ring-brand {
+  --tw-ring-color: var(--brand-color);
+}
+
+.hover\:bg-brand-dark:hover {
+  background-color: var(--brand-dark);
+}
+
+.hover\:text-brand-light:hover {
+  color: var(--brand-light);
+}
